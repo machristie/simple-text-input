@@ -1,17 +1,26 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
+    <SimpleTextInput :value="value" @input="value = $event" />
+    {{ value }}
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import SimpleTextInput from "./components/SimpleTextInput.vue"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    SimpleTextInput
+  },
+  data() {
+    return {
+      value: ""
+    }
   }
 }
 </script>

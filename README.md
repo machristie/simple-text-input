@@ -22,3 +22,8 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Web Component build
+```
+yarn build --target wc --name adpf-plugin-simple-text-input src/components/SimpleTextInput.vue
+```
