@@ -27,3 +27,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ```
 yarn build --target wc --name adpf-plugin-simple-text-input src/components/SimpleTextInput.vue
 ```
+
+## Resources
+
+- https://vuejsdevelopers.com/2018/05/21/vue-js-web-component/
+- https://www.digitalocean.com/community/tutorials/vuejs-vue-integrate-web-components
